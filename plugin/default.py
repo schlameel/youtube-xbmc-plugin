@@ -104,6 +104,8 @@ if (__name__ == "__main__" ):
     scraper = YouTubeScraper.YouTubeScraper()
     import YouTubePlaylistControl
     playlist = YouTubePlaylistControl.YouTubePlaylistControl()
+    import YouTubeLinked
+    linked = YouTubeLinked.YouTubeLinked()
     import YouTubeNavigation
     navigation = YouTubeNavigation.YouTubeNavigation()
 

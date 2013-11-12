@@ -45,6 +45,7 @@ class YouTubeNavigation():
         self.storage = sys.modules["__main__"].storage
         self.scraper = sys.modules["__main__"].scraper
         self.subtitles = sys.modules["__main__"].subtitles
+        self.linked = sys.modules["__main__"].linked
 
         # This list contains the main menu structure the user first encounters when running the plugin
         #     label                        , path                                          , thumbnail                    ,  login                  ,  feed / action
@@ -81,7 +82,10 @@ class YouTubeNavigation():
             {'Title':self.language(30006)  ,'path':"/root/search"                          , 'thumbnail':"search"            , 'login':"false" , 'store':"searches", 'folder':'true' },
             {'Title':self.language(30007)  ,'path':"/root/search/new"                      , 'thumbnail':"search"            , 'login':"false" , 'feed':"search" },
             {'Title':self.language(30027)  ,'path':"/root/login"                           , 'thumbnail':"login"             , 'login':"false" , 'action':"settings" },
-            {'Title':self.language(30028)  ,'path':"/root/settings"                        , 'thumbnail':"settings"          , 'login':"true"  , 'action':"settings" }
+            {'Title':self.language(30028)  ,'path':"/root/settings"                        , 'thumbnail':"settings"          , 'login':"true"  , 'action':"settings" },
+            {'Title':self.language(30060)  ,'path':"/root/linked/channels"                 , 'thumbnail':"DefaultFolder"     , 'login':"false" , 'linked':'channels', 'folder':'true'},
+            {'Title':self.language(30061)  ,'path':"/root/linked/playlists"                , 'thumbnail':"DefaultFolder"     , 'login':"false" , 'linked':'playlists', 'folder':'true'},
+            {'Title':self.language(30062)  ,'path':"/root/linked/videos"                   , 'thumbnail':"DefaultFolder"     , 'login':"false" , 'linked':'videos'},
                                          )
 
     #==================================== Main Entry Points===========================================
@@ -101,10 +105,18 @@ class YouTubeNavigation():
                             if cat_get("feed") == "downloads":
                                 if (self.settings.getSetting("download_path")):
                                     self.addListItem(params, category)
+                            elif path == '/root/linked':
+                                if get('linked_' + cat_get('linked')):
+                                    category['videoid'] = get('videoid')
+                                    category['linked_' + cat_get('linked')] = get('linked_' + cat_get('linked'))
+                                    thumbnail = self.storage.retrieve(category, 'thumbnail')
+                                    if thumbnail:
+                                        category['thumbnail'] = thumbnail
+                                    self.addListItem(params, category)
                             else:
                                 self.addListItem(params, category)
 
-        if (get("feed") or get("user_feed") or get("options") or get("store") or get("scraper")):
+        if (get("feed") or get("user_feed") or get("options") or get("store") or get("scraper") or get("linked")):
             return self.list(params)
 
         video_view = self.settings.getSetting("list_view") == "1"
@@ -182,6 +194,8 @@ class YouTubeNavigation():
         elif get("store"):
             (results, status) = self.storage.list(params)
             self.common.log("store returned " + repr(results))
+        elif (get('linked')):
+            (results, status) = self.linked.list(params)
         else:
             (results, status) = self.feeds.list(params)
 
@@ -544,6 +558,10 @@ class YouTubeNavigation():
 
         cm.append((self.language(30514), "XBMC.Container.Update(%s?path=%s&feed=search&search=%s)" % (sys.argv[0], get("path"), url_title)))
         cm.append((self.language(30527), "XBMC.Container.Update(%s?path=%s&feed=related&videoid=%s)" % (sys.argv[0], get("path"), item("videoid"))))
+        if (self.settings.getSetting("linked_resources")):
+            linkedResources = self.linked.getLinkedResources(item)
+            if (linkedResources):
+                cm.append((self.language(30541), "XBMC.Container.Update(%s?path=/root/linked&videoid=%s&%s)" % (sys.argv[0], item("videoid"), urllib.urlencode(linkedResources))))
         cm.append((self.language(30523), "XBMC.ActivateWindow(VideoPlaylist)"))
         cm.append((self.language(30502), "XBMC.Action(Info)",))
 

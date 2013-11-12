@@ -260,6 +260,9 @@ class YouTubeStorage():
             if iget("playlist"):
                 key = "playlist_" + iget("playlist")
 
+        if get("linked"):
+            key = "linked_" + get ("linked") + "_"+ get("videoid")
+
         if key:
             key += "_thumb"
 
@@ -334,6 +337,9 @@ class YouTubeStorage():
 
         if get("store"):
             key = "store_" + get("store")
+
+        if get("linked"):
+            key = "linked_" + get ("linked") + "_"+ get("videoid")
 
         return key
 
