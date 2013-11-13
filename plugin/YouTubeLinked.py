@@ -80,7 +80,7 @@ class YouTubeLinked():
     
     def list(self, params):
         self.common.log("params: " + repr(params), 5)
-        print "params: " + repr(params)
+        self.common.log("params: " + repr(params))
         get = params.get
         
         if get("linked") == 'videos':
@@ -230,14 +230,17 @@ class YouTubeLinked():
         for node in entries:
             channel ={}
             
-            self.common.log(node, 5)
-            channel['Title'] = self.unescape(self.common.parseDOM(node, "title")[0])
-            thumbnails = self.common.parseDOM(node, "media:thumbnail", ret="url")
-            if thumbnails:
-                channel['thumbnail'] = thumbnails[0]
-            channel['channel'] = self.common.parseDOM(node, "yt:username")[0]
-            channel['feed'] = 'uploads'
-            ytobjects.append(channel)
+            try:
+                self.common.log(node, 5)
+                channel['Title'] = self.unescape(self.common.parseDOM(node, "title")[0])
+                thumbnails = self.common.parseDOM(node, "media:thumbnail", ret="url")
+                if thumbnails:
+                    channel['thumbnail'] = thumbnails[0]
+                channel['channel'] = self.common.parseDOM(node, "yt:username")[0]
+                channel['feed'] = 'uploads'
+                ytobjects.append(channel)
+            except:
+                continue
 
         return ytobjects
 
@@ -247,17 +250,20 @@ class YouTubeLinked():
         ytobjects = []
         for node in entries:
             playlist ={}
-
-            playlist['Title'] = self.unescape(self.common.parseDOM(node, "title")[0])
-            thumbnails = self.common.parseDOM(node, "media:thumbnail", attrs={'yt:name':'hqdefault'}, ret="url")
-            if thumbnails:
-                playlist['thumbnail'] = thumbnails[0]
-            else:
-                playlist['thumbnail'] = self.common.parseDOM(node, "media:thumbnail", ret="url") 
-            playlist['playlist'] = self.common.parseDOM(node, "yt:playlistId")[0] 
-            playlist['author'] = self.unescape(self.common.parseDOM(node, "name")[0]) 
-            playlist['feed'] = 'playlist'
-            ytobjects.append(playlist)
+            
+            try:
+                playlist['Title'] = self.unescape(self.common.parseDOM(node, "title")[0])
+                thumbnails = self.common.parseDOM(node, "media:thumbnail", attrs={'yt:name':'hqdefault'}, ret="url")
+                if thumbnails:
+                    playlist['thumbnail'] = thumbnails[0]
+                else:
+                    playlist['thumbnail'] = self.common.parseDOM(node, "media:thumbnail", ret="url") 
+                playlist['playlist'] = self.common.parseDOM(node, "yt:playlistId")[0] 
+                playlist['author'] = self.unescape(self.common.parseDOM(node, "name")[0]) 
+                playlist['feed'] = 'playlist'
+                ytobjects.append(playlist)
+            except:
+                continue
 
         return ytobjects
     
