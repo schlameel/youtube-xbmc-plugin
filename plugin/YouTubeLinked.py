@@ -60,6 +60,8 @@ class YouTubeLinked():
             #
             ####################################################################################### 
             if 'youtube.com/' in url.lower() or 'youtu.be/' in url.lower():
+                if '#' in url:
+                    url = url[:url.find('#')]
                 if self.hasPlaylist(url):
                     playlists.append(self.findPlaylist(url))
                 elif self.hasVideo(url):
