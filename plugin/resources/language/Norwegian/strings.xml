@@ -56,6 +56,9 @@
     <string id="30057">YouTube utdanning</string>
     <string id="30058">Sesong %s</string>
     <string id="30059">Min historie</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">Brukernavn</string>
@@ -121,3 +124,4 @@
     <string id="30617">Ukjent feil</string>
     <string id="30624">Laster ned</string>
 </strings>
+

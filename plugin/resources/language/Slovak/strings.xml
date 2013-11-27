@@ -64,6 +64,9 @@
     <string id="30057">YouTube vzdelanie</string>
     <string id="30058">Séria %s</string>
     <string id="30059">História</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">Používateľské meno</string>
@@ -152,6 +155,7 @@
     <string id="30286">Zobraziť ponuku YouTube Hudba</string>
     <string id="30287">Zobraziť ponuku YouTube Naživo</string>
     <string id="30288">Zobraziť ponuku YouTube História</string>
+    <string id="30289">Show Linked Resources</string>
 
     <!-- Menu strings -->
     <string id="30500">Vyčistiť rozlišovania videí</string>
@@ -188,6 +192,7 @@
     <string id="30531">Prevrátiť zoznam videí</string>
     <string id="30539">Odobrať zoznam videí</string>
     <string id="30540">Odobrať umelca</string>
+    <string id="30541">Linked Resources</string>
 
     <!-- messages -->
     <string id="30600">Chyba</string>
@@ -221,3 +226,4 @@
     <string id="30628">Poskytnite, prosím, vaše heslo</string>
     <string id="30629">SSL protokol nie je podporovaný.</string>
 </strings>
+

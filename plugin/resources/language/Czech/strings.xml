@@ -64,6 +64,9 @@
     <string id="30057">Výuka YouTube</string>
     <string id="30058">Série %s</string>
     <string id="30059">Historie</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">Uživatelské jméno</string>
@@ -152,6 +155,7 @@
     <string id="30286">Zobrazit hudbu YouTube</string>
     <string id="30287">Zobrazit živé vysílání YouTube</string>
     <string id="30288">Zobrazit historii YouTube</string>
+    <string id="30289">Show Linked Resources</string>
 
     <!-- Menu strings -->
     <string id="30500">Obnovit rozlišování videí</string>
@@ -188,6 +192,7 @@
     <string id="30531">Obrátit seznam skladeb</string>
     <string id="30539">Smazat seznam skladeb</string>
     <string id="30540">Odebrat umělce</string>
+    <string id="30541">Linked Resources</string>
 
     <!-- messages -->
     <string id="30600">Chyba</string>
@@ -221,3 +226,4 @@
     <string id="30628">Zadejte, prosím, své heslo.</string>
     <string id="30629">Protokol SSL není podporován.</string>
 </strings>
+

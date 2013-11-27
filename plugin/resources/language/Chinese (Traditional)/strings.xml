@@ -42,6 +42,9 @@
     <string id="30057">YouTube 教育</string>
     <string id="30058">第 %s 季</string>
     <string id="30059">我的歷史記錄</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">帳號</string>
@@ -144,3 +147,4 @@
     <string id="30628">請提供你的密碼</string>
     <string id="30629">不支援 SSL 協定。</string>
 </strings>
+

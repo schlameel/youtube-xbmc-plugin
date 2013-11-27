@@ -63,6 +63,9 @@
     <string id="30057">YouTube Education</string>
     <string id="30058">시즌 %s</string>
     <string id="30059">내 최근 본 동영상</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">사용자명</string>
@@ -151,6 +154,7 @@
     <string id="30286">YouTube 음악</string>
     <string id="30287">YouTube 실시간</string>
     <string id="30288">YouTube 최근 본 동영상</string>
+    <string id="30289">Show Linked Resources</string>
     <string id="30501">비디오 다운로드</string>
     <string id="30502">비디오 정보</string>
     <string id="30503">내 즐겨찾기에 추가</string>
@@ -183,6 +187,7 @@
     <string id="30531">재생목록 역순으로</string>
     <string id="30539">재생목록 삭제</string>
     <string id="30540">아티스트 삭제</string>
+    <string id="30541">Linked Resources</string>
 
     <!-- messages -->
     <string id="30600">오류</string>
@@ -212,3 +217,4 @@
     <string id="30628">비밀번호를 입력하세요</string>
     <string id="30629">SSL 프로토콜 지원하지 않음.</string>
 </strings>
+

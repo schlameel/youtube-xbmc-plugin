@@ -64,6 +64,9 @@
     <string id="30057">YouTube Education</string>
     <string id="30058">Season %s</string>
     <string id="30059">My History</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">Username</string>
@@ -152,6 +155,7 @@
     <string id="30286">Show YouTube Music</string>
     <string id="30287">Show YouTube Live</string>
     <string id="30288">Show YouTube History</string>
+    <string id="30289">Show Linked Resources</string>
 
     <!-- Menu strings -->
     <string id="30500">Clear refinements</string>
@@ -188,6 +192,7 @@
     <string id="30531">Reverse Playlist</string>
     <string id="30539">Delete Playlist</string>
     <string id="30540">Delete artist</string>
+    <string id="30541">Linked Resources</string>
 
     <!-- messages -->
     <string id="30600">Error</string>
@@ -221,3 +226,4 @@
     <string id="30628">Please provide your password</string>
     <string id="30629">SSL protocol not supported.</string>
 </strings>
+

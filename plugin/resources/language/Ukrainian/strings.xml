@@ -36,6 +36,9 @@
     <string id="30054">Популярні артисти</string>
     <string id="30057">YouTube Освіта</string>
     <string id="30059">Моя історія</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">Ім'я користувача</string>
@@ -86,3 +89,4 @@
     <string id="30628">Будь-ласка введіть ваш пароль</string>
     <string id="30629">Протокол SSL не підтримується.</string>
 </strings>
+

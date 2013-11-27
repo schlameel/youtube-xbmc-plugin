@@ -64,6 +64,9 @@
     <string id="30057">יוטיוב ערוץ החינוך </string>
     <string id="30058">עונה %s</string>
     <string id="30059">ההסטוריה שלי</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">שם משתמש</string>
@@ -152,6 +155,7 @@
     <string id="30286">הצג מוסיקת יוטיוב</string>
     <string id="30287">הצג יוטיוב חי</string>
     <string id="30288">הצג היטורית יוטיוב</string>
+    <string id="30289">Show Linked Resources</string>
 
     <!-- Menu strings -->
     <string id="30500">נקה מיקוד חיפוש</string>
@@ -188,6 +192,7 @@
     <string id="30531">פוך רשימת השמעה</string>
     <string id="30539">מחק רשימת השמעה</string>
     <string id="30540">מחק אמן</string>
+    <string id="30541">Linked Resources</string>
 
     <!-- messages -->
     <string id="30600">שגיאה</string>
@@ -221,3 +226,4 @@
     <string id="30628">בבקשה ספק את סיסמתך</string>
     <string id="30629">פרוטוקול SSL אינו נתמך.</string>
 </strings>
+

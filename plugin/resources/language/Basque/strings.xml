@@ -43,6 +43,9 @@
     <string id="30053">Gomendaturiko Musika</string>
     <string id="30058">%s denboraldia</string>
     <string id="30059">Nire Historia</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">Erabiltzailea</string>
@@ -117,3 +120,4 @@
     <string id="30628">Mesedez eman zure pasahitza</string>
     <string id="30629">SSL protokoloa ez da onartzen</string>
 </strings>
+

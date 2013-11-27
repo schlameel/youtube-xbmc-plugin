@@ -64,6 +64,9 @@
     <string id="30057">YouTube koulutus</string>
     <string id="30058">Kausi %s</string>
     <string id="30059">Historia</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">Käyttäjänimi</string>
@@ -152,6 +155,7 @@
     <string id="30286">Näytä YouTuben musiikki</string>
     <string id="30287">Näytä YouTuben suora lähetys</string>
     <string id="30288">Näytä YouTuben historia</string>
+    <string id="30289">Show Linked Resources</string>
     <string id="30501">Lataa video</string>
     <string id="30502">Näytön tiedot</string>
     <string id="30503">Lisää suosikkeihini</string>
@@ -184,6 +188,7 @@
     <string id="30531">Käännä soittolista</string>
     <string id="30539">Poista soittolista</string>
     <string id="30540">Poista artisti</string>
+    <string id="30541">Linked Resources</string>
 
     <!-- messages -->
     <string id="30600">Virhe</string>
@@ -215,3 +220,4 @@
     <string id="30628">Anna salasanasi</string>
     <string id="30629">SSL-protokolla ei ole tuettu.</string>
 </strings>
+

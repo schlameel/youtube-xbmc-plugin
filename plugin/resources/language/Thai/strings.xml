@@ -64,6 +64,9 @@
     <string id="30057">YouTube การศึกษา</string>
     <string id="30058">ฤดูกาล %s</string>
     <string id="30059">ประวัติของคุณ</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">ชื่อผู้ใช้</string>
@@ -159,3 +162,4 @@
     <string id="30625">ดาวน์โหลดไม่สำเร็จ</string>
     <string id="30628">กรุณากรอกรหัสผ่าน</string>
 </strings>
+

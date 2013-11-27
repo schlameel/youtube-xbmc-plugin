@@ -64,6 +64,9 @@
     <string id="30057">YouTube éducatif</string>
     <string id="30058">Saison %s</string>
     <string id="30059">Historique</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">Utilisateur</string>
@@ -152,6 +155,7 @@
     <string id="30286">Afficher la musique de YouTube</string>
     <string id="30287">Afficher les Directs de YouTube</string>
     <string id="30288">Afficher l'historique pour YouTube</string>
+    <string id="30289">Show Linked Resources</string>
 
     <!-- Menu strings -->
     <string id="30500">Supprimer les filtres</string>
@@ -188,6 +192,7 @@
     <string id="30531">Inverser la liste de lecture</string>
     <string id="30539">Supprimer la liste de lecture</string>
     <string id="30540">Supprimer l'artiste</string>
+    <string id="30541">Linked Resources</string>
 
     <!-- messages -->
     <string id="30600">Erreur</string>
@@ -221,3 +226,4 @@
     <string id="30628">Merci de fournir votre mot de passe</string>
     <string id="30629">Protocole SSL non supporté</string>
 </strings>
+

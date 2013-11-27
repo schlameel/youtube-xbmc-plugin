@@ -64,6 +64,9 @@
     <string id="30057">Εκπαίδευση YouTube</string>
     <string id="30058">Κύκλος %s</string>
     <string id="30059">Το Ιστορικό μου</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">Όνομα χρήστη</string>
@@ -152,6 +155,7 @@
     <string id="30286">Προβολή Μουσικής YouTube</string>
     <string id="30287">Προβολή YouTube Live</string>
     <string id="30288">Προβολή Ιστορικού YouTube</string>
+    <string id="30289">Show Linked Resources</string>
 
     <!-- Menu strings -->
     <string id="30500">Εκκαθάριση φίλτρων</string>
@@ -188,6 +192,7 @@
     <string id="30531">Αντίστροφη Λίστα Αναπαραγωγής</string>
     <string id="30539">Διαγραφή Λίστας Αναπαραγωγής</string>
     <string id="30540">Διαγραφή καλλιτέχνη</string>
+    <string id="30541">Linked Resources</string>
 
     <!-- messages -->
     <string id="30600">Σφάλμα</string>
@@ -221,3 +226,4 @@
     <string id="30628">Εισαγάγετε τον κωδικό σας</string>
     <string id="30629">Δεν υποστηρίζεται το πρωτόκολλο SSL.</string>
 </strings>
+

@@ -64,6 +64,9 @@
     <string id="30057">Educación YouTube</string>
     <string id="30058">Temporada %s</string>
     <string id="30059">Mi Historia</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">Usuario</string>
@@ -152,6 +155,7 @@
     <string id="30286">Ver Música de YouTube</string>
     <string id="30287">Ver YouTube en Vivo</string>
     <string id="30288">Ver Historial de YouTube</string>
+    <string id="30289">Show Linked Resources</string>
 
     <!-- Menu strings -->
     <string id="30500">Borrar mejoras</string>
@@ -188,6 +192,7 @@
     <string id="30531">Guardar lista de reproducción</string>
     <string id="30539">Borrar de la lista de reproducción</string>
     <string id="30540">Borrar artista</string>
+    <string id="30541">Linked Resources</string>
 
     <!-- messages -->
     <string id="30600">Error</string>
@@ -221,3 +226,4 @@
     <string id="30628">Por favor, introduce tu contraseña</string>
     <string id="30629">Protocolo SSL no soportado</string>
 </strings>
+

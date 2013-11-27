@@ -64,6 +64,9 @@
     <string id="30057">YouTube educaţie</string>
     <string id="30058">Sezonul %s</string>
     <string id="30059">Istoricul meu</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">Utilizator</string>
@@ -152,6 +155,7 @@
     <string id="30286">Afişează muzică YouTube</string>
     <string id="30287">Afişează YouTube Live</string>
     <string id="30288">Afişează istoric YouTube</string>
+    <string id="30289">Show Linked Resources</string>
 
     <!-- Menu strings -->
     <string id="30500">Şterge rafinări</string>
@@ -188,6 +192,7 @@
     <string id="30531">Inversează lista</string>
     <string id="30539">Şterge lista</string>
     <string id="30540">Şterge artist</string>
+    <string id="30541">Linked Resources</string>
 
     <!-- messages -->
     <string id="30600">Eroare</string>
@@ -221,3 +226,4 @@
     <string id="30628">Vă rugăm introduceţi parola</string>
     <string id="30629">Protocolul SSL nu este suportat</string>
 </strings>
+

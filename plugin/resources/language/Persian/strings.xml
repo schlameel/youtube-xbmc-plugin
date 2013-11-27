@@ -30,6 +30,9 @@
     <string id="30047">آخرین بازی‌ها</string>
     <string id="30058">فصل  %s</string>
     <string id="30059">تاریخچه من</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">نام کاربری</string>
@@ -96,3 +99,4 @@
     <string id="30624">در حال بارگیری</string>
     <string id="30625">عملیات بارگیری شکست خورد</string>
 </strings>
+

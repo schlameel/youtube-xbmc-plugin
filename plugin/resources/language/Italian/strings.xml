@@ -64,6 +64,9 @@
     <string id="30057">YouTube Istruzione</string>
     <string id="30058">Stagione %s</string>
     <string id="30059">La Mia Cronologia</string>
+    <string id="30060">Linked Channels</string>
+    <string id="30061">Linked Playlists</string>
+    <string id="30062">Linked Videos</string>
 
     <!-- Plugin settings strings -->
     <string id="30200">Nome utente</string>
@@ -152,6 +155,7 @@
     <string id="30286">Mostra la musica YouTube</string>
     <string id="30287">Mostra gli show live YouTube</string>
     <string id="30288">Mostra la storia YouTube</string>
+    <string id="30289">Show Linked Resources</string>
 
     <!-- Menu strings -->
     <string id="30500">Cancella rifinimenti</string>
@@ -188,6 +192,7 @@
     <string id="30531">Inverti playlist</string>
     <string id="30539">Cancella playlist</string>
     <string id="30540">Cancella artista</string>
+    <string id="30541">Linked Resources</string>
 
     <!-- messages -->
     <string id="30600">Errore</string>
@@ -221,3 +226,4 @@
     <string id="30628">Prego inserire la propria password</string>
     <string id="30629">Protocollo SSL non supportato</string>
 </strings>
+
